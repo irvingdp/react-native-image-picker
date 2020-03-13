@@ -132,7 +132,7 @@ public class MediaUtils
         {
             result = result.withMaxWidth(initialWidth);
         }
-        if (imageConfig.maxHeight == 0 || imageConfig.maxWidth > initialHeight)
+        if (imageConfig.maxHeight == 0 || imageConfig.maxHeight > initialHeight)
         {
             result = result.withMaxHeight(initialHeight);
         }
